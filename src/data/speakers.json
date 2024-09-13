@@ -1,0 +1,17 @@
+{
+    "name":"speakers",
+    "data":[
+        {
+            "brand":"Apple",
+            "type":"mini",
+            "price":500,
+            "discount":10
+        },
+        {
+            "brand":"Apple",
+            "type":"homepod",
+            "price":600,
+            "discount":20
+        }
+    ]
+}

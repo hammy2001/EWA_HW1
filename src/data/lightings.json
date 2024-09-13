@@ -1,0 +1,17 @@
+{
+    "name":"lightings",
+    "data":[
+        {
+            "brand":"Havells",
+            "type":"cadence",
+            "price":200,
+            "discount":10
+        },
+        {
+            "brand":"Havells",
+            "type":"ultra",
+            "price":100,
+            "discount":20
+        }
+    ]
+}
