@@ -6,13 +6,11 @@ const Sidebar=()=>{
 	
             <ul>	
                <li>
-                    <h4>Categories</h4>
+                    <h4>Lightings</h4>
                     <ul>
-                        <li><a href="/lightings">light Page</a></li>
-                        <li><a href="examples.html">Style Examples</a></li>
-                        <li><a href="#">Commodo vestibulum sem mattis</a></li>
-                        <li><a href="#">Sed aliquam libero ut velit bibendum</a></li>
-                        <li><a href="#">Maecenas condimentum velit vitae</a></li>
+                        <li><a href="/lighting?maker=Havells">Havells</a></li>
+                        <li><a href="/lighting?maker=Syska">Syska</a></li>
+                        <li><a href="/lighting?maker=Phillips">Phillips</a></li>
                     </ul>
                 </li>
                 

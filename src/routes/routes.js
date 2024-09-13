@@ -1,5 +1,6 @@
 import Homepage from "../pages/homepage";
-import Lightings from "../pages/lightings";
+import Item from "../pages/item";
+import Products from "../pages/products";
 import Speakers from "../pages/speakers";
 
 
@@ -13,15 +14,21 @@ const routes=[
     },{
         id:101,
         parent: null,
-        path:'lightings',
+        path:'lighting',
         exact: true,
-        component: Lightings
+        component: Products
     },{
         id:102,
         parent: null,
-        path:'speakers',
+        path:'speaker',
         exact: true,
         component: Speakers
+    },{
+        id:103,
+        parent: null,
+        path:'/lighting/item',
+        exact: true,
+        component: Item
     },
 ]
 

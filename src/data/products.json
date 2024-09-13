@@ -1,0 +1,459 @@
+[
+  {
+    "header": "lighting",
+    "data": [
+      {
+        "brand": "Havells",
+        "maker": "Havells",
+        "name": "Havells syllium",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "hv101",
+        "price": 200,
+        "discount": 10,
+        "warranty": 200,
+        "rebate": 50,
+        "accessories": [
+          {
+            "type": "holder",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":""
+          }
+        ]
+      },
+      {
+        "brand": "Havells",
+        "maker": "Havells",
+        "name": "Havells cadence",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "hv102",
+        "price": 250,
+        "discount": 13,
+        "warranty": 170,
+        "rebate": 40,
+        "accessories": [
+          {
+            "image": "",
+            "type": "holder",
+            "description": "Lorem ipsum magnate",
+            "price": 50
+          },
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "brand": "Syska",
+        "maker": "Syska",
+        "name": "Syska titan",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "sk103",
+        "price": 230,
+        "discount": 12,
+        "warranty": 140,
+        "rebate": 20,
+        "accessories": [
+          {
+            "image": "",
+            "type": "stand",
+            "description": "Lorem ipsum magnate",
+            "price": 50
+          },
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 190
+          }
+        ]
+      },
+      {
+        "brand": "Syska",
+        "maker": "Syska",
+        "name": "Syska Comet",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "sk104",
+        "price": 280,
+        "discount": 19,
+        "warranty": 135,
+        "rebate": 22,
+        "accessories": [
+          {
+            "image": "",
+            "type": "stand",
+            "description": "Lorem ipsum magnate",
+            "price": 55
+          },
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 199
+          }
+        ]
+      },
+      {
+        "brand": "Phillips",
+        "maker": "Phillips",
+        "name": "Phillips zenith",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "ph105",
+        "price": 255,
+        "discount": 11,
+        "warranty": 120,
+        "rebate": 12,
+        "accessories": [
+          {
+            "image": "",
+            "type": "stand",
+            "description": "Lorem ipsum magnate",
+            "price": 57
+          },
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 185
+          },
+          {
+            "image": "",
+            "type": "lamp",
+            "description": "Lorem ipsum magnate",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "brand": "Phillips",
+        "maker": "Phillips",
+        "name": "Phillips coder",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "ph106",
+        "price": 299,
+        "discount": 19,
+        "warranty": 155,
+        "rebate": 25,
+        "accessories": [
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 199
+          }
+        ]
+      }
+    ]
+  },{
+    "header": "speaker",
+    "data": [
+      {
+        "brand": "Apple",
+        "maker": "Apple",
+        "name": "Apple mini",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "ap101",
+        "price": 259,
+        "discount": 10,
+        "warranty": 130,
+        "rebate": 30,
+        "accessories": [
+          {
+            "type": "holder",
+            "description": "Lorem ipsum magnate",
+            "price": 40,
+            "image":""
+          }
+        ]
+      },
+      {
+        "brand": "Apple",
+        "maker": "Apple",
+        "name": "Apple Homepod 2nd gen",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "ap102",
+        "price": 390,
+        "discount": 24,
+        "warranty": 143,
+        "rebate": 74,
+        "accessories": [
+          {
+            "image": "",
+            "type": "holder",
+            "description": "Lorem ipsum magnate",
+            "price": 59
+          },
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "brand": "Amazon",
+        "maker": "Amazon",
+        "name": "Amazon echo",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "am103",
+        "price": 155,
+        "discount": 23,
+        "warranty": 87,
+        "rebate": 12,
+        "accessories": [
+          {
+            "image": "",
+            "type": "stand",
+            "description": "Lorem ipsum magnate",
+            "price": 34
+          },
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 89
+          }
+        ]
+      },
+      {
+        "brand": "Amazon",
+        "maker": "Amazon",
+        "name": "Amazon Home ",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "am104",
+        "price": 280,
+        "discount": 19,
+        "warranty": 135,
+        "rebate": 22,
+        "accessories": [
+          {
+            "image": "",
+            "type": "stand",
+            "description": "Lorem ipsum magnate",
+            "price": 55
+          },
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 199
+          }
+        ]
+      },
+      {
+        "brand": "Google",
+        "maker": "Google",
+        "name": "Google nest 1st gen",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "go105",
+        "price": 239,
+        "discount": 34,
+        "warranty": 100,
+        "rebate": 45,
+        "accessories": [
+          {
+            "image": "",
+            "type": "stand",
+            "description": "Lorem ipsum magnate",
+            "price": 69
+          }
+        ]
+      },
+      {
+        "brand": "Google",
+        "maker": "Google",
+        "name": "Google nest 2nd gen",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "go106",
+        "price": 399,
+        "discount": 39,
+        "warranty": 149,
+        "rebate": 35,
+        "accessories": [
+          {
+            "image": "",
+            "type": "remote",
+            "description": "Lorem ipsum magnate",
+            "price": 199
+          }
+        ]
+      }
+    ]
+  },{
+    "header": "doorbell",
+    "data": [
+      {
+        "brand": "Ecobee",
+        "maker": "Ecobee",
+        "name": "Ecobee Samara",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "ec101",
+        "price": 119,
+        "discount": 25,
+        "warranty": 45,
+        "rebate": 39,
+        "accessories": [
+            {
+                "image": "",
+                "type": "camera",
+                "description": "Lorem ipsum magnate",
+                "price": 159
+              },
+              {
+                "image": "",
+                "type": "speaker",
+                "description": "Lorem ipsum magnate",
+                "price": 129
+              }
+        ]
+      },
+      {
+        "brand": "Ecobee",
+        "maker": "Ecobee",
+        "name": "Ecobee Sonar",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "ec102",
+        "price": 210,
+        "discount": 44,
+        "warranty": 49,
+        "rebate": 89,
+        "accessories": [
+            {
+                "image": "",
+                "type": "camera",
+                "description": "Lorem ipsum magnate",
+                "price": 159
+              },
+              {
+                "image": "",
+                "type": "speaker",
+                "description": "Lorem ipsum magnate",
+                "price": 129
+              }
+        ]
+      },
+      {
+        "brand": "Proscenic",
+        "maker": "Proscenic",
+        "name": "Proscenic Karen",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "pr103",
+        "price": 189,
+        "discount": 22,
+        "warranty": 71,
+        "rebate": 30,
+        "accessories": [
+            {
+                "image": "",
+                "type": "camera",
+                "description": "Lorem ipsum magnate",
+                "price": 159
+              },
+              {
+                "image": "",
+                "type": "speaker",
+                "description": "Lorem ipsum magnate",
+                "price": 129
+              }
+        ]
+      },
+      {
+        "brand": "Proscenic",
+        "maker": "Proscenic",
+        "name": "Proscenic Allure",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "pr104",
+        "price": 312,
+        "discount": 99,
+        "warranty": 125,
+        "rebate": 117,
+        "accessories": [
+            {
+                "image": "",
+                "type": "camera",
+                "description": "Lorem ipsum magnate",
+                "price": 159
+              },
+              {
+                "image": "",
+                "type": "speaker",
+                "description": "Lorem ipsum magnate",
+                "price": 129
+              }
+        ]
+      },
+      {
+        "brand": "Azzax",
+        "maker": "Azzax",
+        "name": "Azzax Hightone",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "az105",
+        "price": 279,
+        "discount": 54,
+        "warranty": 121,
+        "rebate": 43,
+        "accessories": [
+            {
+                "image": "",
+                "type": "camera",
+                "description": "Lorem ipsum magnate",
+                "price": 159
+              },
+              {
+                "image": "",
+                "type": "speaker",
+                "description": "Lorem ipsum magnate",
+                "price": 129
+              }
+        ]
+      },
+      {
+        "brand": "Azzax",
+        "maker": "Azzax",
+        "name": "Azzax pitch",
+        "image": "",
+        "description": "Lorem ipsum magnate",
+        "id": "az106",
+        "price": 329,
+        "discount": 69,
+        "warranty": 123,
+        "rebate": 55,
+        "accessories": [
+            {
+                "image": "",
+                "type": "camera",
+                "description": "Lorem ipsum magnate",
+                "price": 159
+              },
+              {
+                "image": "",
+                "type": "speaker",
+                "description": "Lorem ipsum magnate",
+                "price": 129
+              }
+        ]
+      }
+    ]
+  }
+]
