@@ -13,7 +13,7 @@ const Header=()=>{
         	    <li class=""><a href="/lighting?maker=all">Lightings</a></li>
          	   	<li><a href="#">Products</a></li>
           	  	<li><a href="#">Solutions</a></li>
-          	 	<li class="end"><a href="#">Contact</a></li>
+          	 	<li><a href="/cart">Cart</a></li>
         	</ul>
 	</div>
     </nav>

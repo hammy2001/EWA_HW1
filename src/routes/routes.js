@@ -1,3 +1,4 @@
+import Cart from "../pages/cart";
 import Homepage from "../pages/homepage";
 import Item from "../pages/item";
 import Products from "../pages/products";
@@ -29,6 +30,12 @@ const routes=[
         path:'/lighting/item',
         exact: true,
         component: Item
+    },{
+        id:103,
+        parent: null,
+        path:'cart',
+        exact: true,
+        component: Cart
     },
 ]
 

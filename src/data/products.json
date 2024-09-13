@@ -18,7 +18,8 @@
             "type": "holder",
             "description": "Lorem ipsum magnate",
             "price": 40,
-            "image":""
+            "image":"",
+            "id":"acc01"
           }
         ]
       },
@@ -38,13 +39,15 @@
             "image": "",
             "type": "holder",
             "description": "Lorem ipsum magnate",
-            "price": 50
+            "price": 50,
+            "id":"acc02"
           },
           {
             "image": "",
             "type": "remote",
             "description": "Lorem ipsum magnate",
-            "price": 150
+            "price": 150,
+            "id":"acc03"
           }
         ]
       },
