@@ -23,13 +23,13 @@ const Sidebar = () => {
           <h4>Speakers</h4>
           <ul>
             <li>
-              <a href="/lighting?maker=Apple">Apple</a>
+              <a href="/speaker?maker=Apple">Apple</a>
             </li>
             <li>
-              <a href="/lighting?maker=Amazon">Amazon</a>
+              <a href="/speaker?maker=Amazon">Amazon</a>
             </li>
             <li>
-              <a href="/lighting?maker=Google">Google</a>
+              <a href="/speaker?maker=Google">Google</a>
             </li>
           </ul>
         </li>
@@ -38,13 +38,61 @@ const Sidebar = () => {
           <h4>Doorbells</h4>
           <ul>
             <li>
-              <a href="/lighting?maker=Ecobee">Ecobee</a>
+              <a href="/doorbell?maker=Ecobee">Ecobee</a>
             </li>
             <li>
-              <a href="/lighting?maker=Proscenic">Proscenic</a>
+              <a href="/doorbell?maker=Proscenic">Proscenic</a>
             </li>
             <li>
-              <a href="/lighting?maker=Azzax">Azzax</a>
+              <a href="/doorbell?maker=Azzax">Azzax</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <h4>Thermostats</h4>
+          <ul>
+            <li>
+              <a href="/thermostat?maker=Honeywell">Honeywell</a>
+            </li>
+            <li>
+              <a href="/thermostat?maker=NestLabs">Nest Labs</a>
+            </li>
+            <li>
+              <a href="/thermostat?maker=Emmerson">Emmerson</a>
+            </li>
+            <li>
+              <a href="/thermostat?maker=Schneider">Schneider</a>
+            </li>
+            <li>
+              <a href="/thermostat?maker=Nortek">Nortek</a>
+            </li>
+            <li>
+              <a href="/thermostat?maker=Tado">Tado</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <h4>Doorlocks</h4>
+          <ul>
+            <li>
+              <a href="/doorlocks?maker=Yale">Yale</a>
+            </li>
+            <li>
+              <a href="/doorlocks?maker=Kwikset">Kwikset</a>
+            </li>
+            <li>
+              <a href="/doorlocks?maker=Schlage">Schlage</a>
+            </li>
+            <li>
+              <a href="/doorlocks?maker=SwitchBot">Switch Bot</a>
+            </li>
+            <li>
+              <a href="/doorlocks?maker=Ultraloq">Ultraloq</a>
+            </li>
+            <li>
+              <a href="/doorlocks?maker=Wyze">Wyze</a>
             </li>
           </ul>
         </li>
