@@ -12,8 +12,9 @@ import {
     REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import {userReducer} from './user.reducer';
 const persistConfig = {
-    key: 'counter',
+    key: 'counter-1',
     storage,
 };
 
@@ -21,6 +22,7 @@ const persistConfig = {
 const rootReducer = combineReducers({
     cartReducer,
     productsReducer,
+    userReducer
 });
 
 const persist = persistReducer(persistConfig, rootReducer);

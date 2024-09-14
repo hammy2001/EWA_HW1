@@ -1,0 +1,10 @@
+[
+    {
+        "usertype": "storagemanager",
+        "name": "admin king",
+        "userid": 1000,
+        "salesman":[],
+        "user": "adminking@email.com",
+        "password":"admin"
+    }
+]

@@ -1,0 +1,7 @@
+export const userTypes = {
+    AUTHENTICATE_USER: 'AUTHENTICATE_USER',
+    ADD_USER: 'ADD_USER',
+    GET_USER: 'GET_USER',
+    DELETE_USER : 'DELETE_USER',
+    LOGOUT_USER: 'LOGOUT_USER'
+}

@@ -11,7 +11,32 @@ export const removeItem = (item)=>{
     }
 };
 
+export const addorder = (item)=>{
+    return dispatch=>{
+        dispatch({type:cartTypes.ADD_ORDER_IN_CART,payload:item})
+    }
+}
+export const placeorder = (item)=>{
+    return dispatch=>{
+        dispatch({type:cartTypes.PLACED_ORDER_IN_CART,payload:item})
+    }
+}
+export const removeorder = (item)=>{
+    return dispatch=>{
+        dispatch({type:cartTypes.REMOVE_ITEM_IN_CART,payload:item})
+    }
+}
+export const emptycart = (item)=>{
+    return dispatch=>{
+        dispatch({type:cartTypes.EMPTY_STATE_CART,payload:item})
+    }
+}
+
 export const cartActions = {
     addItem,
-    removeItem
+    addorder,
+    removeorder,
+    removeItem,
+    placeorder,
+    emptycart
 };
