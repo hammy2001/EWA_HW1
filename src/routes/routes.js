@@ -7,57 +7,76 @@ import Login from "../pages/login";
 import Products from "../pages/products";
 import Speakers from "../pages/speakers";
 
-
-const routes=[
-    {
-        id:1000,
-        parent: null,
-        path:'login',
-        exact: true,
-        component: Login
-    },{
-        id:100,
-        parent: null,
-        path:'home',
-        exact: true,
-        component: Homepage
-    },{
-        id:101,
-        parent: null,
-        path:'lighting',
-        exact: true,
-        component: Products
-    },{
-        id:102,
-        parent: null,
-        path:'speaker',
-        exact: true,
-        component: Speakers
-    },{
-        id:103,
-        parent: null,
-        path:'/lighting/item',
-        exact: true,
-        component: Item
-    },{
-        id:103,
-        parent: null,
-        path:'cart',
-        exact: true,
-        component: Cart
-    },{
-        id:104,
-        parent: null,
-        path:'checkout',
-        exact: true,
-        component: Checkout
-    },{
-        id:105,
-        parent: null,
-        path:'account',
-        exact: true,
-        component: Account
-    },
-]
+const routes = [
+  {
+    id: 100,
+    parent: null,
+    path: "",
+    exact: true,
+    component: Homepage,
+  },
+  {
+    id: 101,
+    parent: null,
+    path: "lighting",
+    exact: true,
+    component: Products,
+  },
+  {
+    id: 102,
+    parent: null,
+    path: "speaker",
+    exact: true,
+    component: Products,
+  },
+  {
+    id: 103,
+    parent: null,
+    path: "doorbell",
+    exact: true,
+    component: Products,
+  },
+  {
+    id: 104,
+    parent: null,
+    path: "thermostat",
+    exact: true,
+    component: Products,
+  },
+  {
+    id: 105,
+    parent: null,
+    path: "doorlock",
+    exact: true,
+    component: Products,
+  },
+  {
+    id: 106,
+    parent: null,
+    path: "/lighting/item",
+    exact: true,
+    component: Item,
+  },
+  {
+    id: 107,
+    parent: null,
+    path: "cart",
+    exact: true,
+    component: Cart,
+  },
+  ,{
+    id:114,
+    parent: null,
+    path:'checkout',
+    exact: true,
+    component: Checkout
+},{
+    id:115,
+    parent: null,
+    path:'account',
+    exact: true,
+    component: Account
+},
+];
 
 export default routes;

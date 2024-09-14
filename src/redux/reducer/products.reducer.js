@@ -60,4 +60,129 @@ export function productsReducer(state = initialState, action) {
         default:
             return state
     }
+   
+
+    // case userTypes.GET_REQUEST:
+    // case userTypes.GET_ALL_REQUEST:
+    // case userTypes.ADD_USER_REQUEST:
+    // case userTypes.GET_USER_SCOPE_REQUEST:
+    // case userTypes.UPDATE_USER_REQUEST :
+    // case userTypes.UPDATE_USER_SCOPES_REQUEST:
+    // case userTypes.UPDATE_USER_ROLES_REQUEST:
+    // case userTypes.DELETE_REQUEST:
+    // case userTypes.GET_SELF_PROFILE_REQUEST:
+    // case userTypes.CHANGE_SELF_PASSWORD_REQUEST:
+    // case userTypes.CHANGE_USERID_PASSWORD_REQUEST:
+    // case userTypes.CHANGE_STATUS_REQUEST:
+    // case userTypes.GET_USER_LOGS_REQUEST:
+    //     return {
+    //         ...state,
+    //         loading: true
+    //     };
+    // case userTypes.ADD_USER_SUCCESS:
+    //     // console.log('add user received', action)
+    //     return {
+    //         ...state,
+    //         list: !_.isEmpty(action?.payload) ? [...state.list, action?.payload] : [...state?.list] ,
+    //         userAdded:action?.payload,
+    //         userDetails: action?.payload,
+    //     };
+    // case userTypes.GET_USER_SCOPE_SUCCESS:
+    //     return {
+    //         ...state,
+    //         userScope:action?.payload
+    //     };
+    // case userTypes.GET_SELF_PROFILE_SUCCESS:
+    //     return {
+    //         ...state,
+    //         userSelfProfile:action?.payload
+    //     };
+    // case userTypes.UPDATE_USER_SUCCESS:
+    //     // console.log('action received', action.payload);
+    //     return {
+    //         ...state,
+    //         list: state.list.map(item=>item.id !== action.payload.id ? action.payload : item),
+    //         // userDetails:action?.payload
+    //     };
+    // case userTypes.GET_ALL_SUCCESS:
+    //     return {
+    //         ...state,
+    //         list: action.payload,
+    //         loading: false
+    //     };
+
+    // case userTypes.CHANGE_STATUS_SUCCESS:
+    //     return {
+    //         ...state,
+    //         userStatus: action.payload,
+    //         loading: false
+    //     };
+    // case userTypes.CHANGE_SELF_PASSWORD_SUCCESS:
+    //     return {
+    //         ...state,
+    //         changeSelfPassword: action.payload,
+    //         loading: false
+    //     };
+    // case userTypes.CHANGE_USERID_PASSWORD_SUCCESS:
+    //     return {
+    //         ...state,
+    //         changeUserIDPassword: action.payload,
+    //         loading: false
+    //     };
+
+    // case userTypes.GET_SUCCESS:
+    //     return {
+    //         ...state,
+    //         // list: state?.list && Array.isArray(state?.list) ? state?.list?.map(item=>item.id === action.payload.id ? action.payload : item) : [],
+    //         userDetails: action?.payload,
+    //         loading: false
+    //     };
+    // case userTypes.UPDATE_USER_SCOPES_SUCCESS:
+    //     return {
+    //         ...state,
+    //         list: state?.list && Array.isArray(state?.list) ? state?.list?.map(item=>item.id === action?.payload?.userId ? {...item, scopes: action?.payload?.scopes} : item) : [],
+    //         loading: false
+    //     };
+    // case userTypes.UPDATE_USER_ROLES_SUCCESS:
+    //     return {
+    //         ...state,
+    //         list: state?.list && Array.isArray(state?.list) ? state?.list?.map(item=>item.userId === action?.payload?.userId ? {...item, roles: action?.payload?.roles} : item) : [],
+    //         loading: false
+    //     };
+    // case userTypes.GET_USER_LOGS_SUCCESS:
+    //     return {
+    //         ...state,
+    //         userLogs: action.payload
+    //     }
+    // case userTypes.DELETE_SUCCESS:
+    //     return {
+    //         ...state,
+    //         deletedUser: action?.payload,
+    //         // list: state?.list && Array.isArray(state?.list) ? state?.list?.filter(item => item.id !== action.payload.id) : [],
+    //         loading: false
+    //     };
+    // case userTypes.USER_EMPTY_ERRORS:
+    //     return {
+    //         ...state,
+    //         error: null,
+    //         loading: false
+    //     };
+    // case userTypes.GET_FAILURE:
+    // case userTypes.GET_ALL_FAILURE:
+    // case userTypes.GET_USER_SCOPE_FAILURE:
+    // case userTypes.ADD_USER_FAILURE:
+    // case userTypes.UPDATE_USER_SCOPES_FAILURE:
+    // case userTypes.UPDATE_USER_ROLES_FAILURE:
+    // case userTypes.DELETE_FAILURE:
+    // case userTypes.GET_SELF_PROFILE_FAILURE:
+    // case userTypes.CHANGE_SELF_PASSWORD_FAILURE:
+    // case userTypes.CHANGE_USERID_PASSWORD_FAILURE:
+    // case userTypes.CHANGE_STATUS_FAILURE:
+    // case userTypes.GET_USER_LOGS_FAILURE:
+    //     return {
+    //         ...state,
+    //         error: action?.payload,
+    //         loading: false
+    //     };
+   
 }
