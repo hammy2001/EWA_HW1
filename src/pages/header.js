@@ -1,17 +1,24 @@
-import React from "react";
 import { useDispatch } from "react-redux";
 import { userActions } from "../redux/actions/user";
 import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
 
 const Header = () => {
+  const dispatch = useDispatch();
+  const history = useNavigate();
 
-	const dispatch = useDispatch();
-	const history = useNavigate();
+  const getcart = useSelector((state) => state?.cartReducer?.cart);
+  const [cart, setCart] = useState([]);
 
-	const handlelogout = ()=>{
-		dispatch(userActions.logout());
-		history('/')
-	}
+  useEffect(() => {
+    setCart([...getcart]);
+  }, [getcart]);
+
+  const handlelogout = () => {
+    dispatch(userActions.logout());
+    history("/");
+  };
   return (
     <header>
       <div class="width">
@@ -44,6 +51,14 @@ const Header = () => {
             </li>
             <li>
               <a href="/cart">Cart</a>
+            </li>
+            <li>
+              <a href="/account">Account</a>
+            </li>
+            <li>
+              <a href="" onClick={handlelogout}>
+                Logout
+              </a>
             </li>
           </ul>
         </div>

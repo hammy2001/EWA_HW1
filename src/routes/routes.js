@@ -3,9 +3,7 @@ import Cart from "../pages/cart";
 import Checkout from "../pages/checkout";
 import Homepage from "../pages/homepage";
 import Item from "../pages/item";
-import Login from "../pages/login";
 import Products from "../pages/products";
-import Speakers from "../pages/speakers";
 
 const routes = [
   {

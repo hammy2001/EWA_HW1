@@ -1,5 +1,3 @@
-import React from "react";
-
 const Sidebar = () => {
   return (
     <aside class="sidebar">
@@ -61,15 +59,6 @@ const Sidebar = () => {
             <li>
               <a href="/thermostat?maker=Emmerson">Emmerson</a>
             </li>
-            <li>
-              <a href="/thermostat?maker=Schneider">Schneider</a>
-            </li>
-            <li>
-              <a href="/thermostat?maker=Nortek">Nortek</a>
-            </li>
-            <li>
-              <a href="/thermostat?maker=Tado">Tado</a>
-            </li>
           </ul>
         </li>
 
@@ -84,15 +73,6 @@ const Sidebar = () => {
             </li>
             <li>
               <a href="/doorlock?maker=Schlage">Schlage</a>
-            </li>
-            <li>
-              <a href="/doorlock?maker=SwitchBot">Switch Bot</a>
-            </li>
-            <li>
-              <a href="/doorlock?maker=Ultraloq">Ultraloq</a>
-            </li>
-            <li>
-              <a href="/doorlock?maker=Wyze">Wyze</a>
             </li>
           </ul>
         </li>

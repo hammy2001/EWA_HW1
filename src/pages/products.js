@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./products.scss";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import queryString from "query-string";
@@ -9,8 +9,6 @@ const Products = () => {
   const params = useParams();
   const location = useLocation();
   const products = useSelector((state) => state?.productsReducer?.products);
-  const lightings = useSelector((state) => state?.productsReducer?.lightings);
-  const speakers = useSelector((state) => state?.productsReducer?.speakers);
   const [arr, setArr] = useState([]);
   const maker = queryString.parse(location.search)?.maker;
 
@@ -52,22 +50,10 @@ const Products = () => {
         arr,
         arr.filter((item) => item?.maker === maker)
       );
-
-      // setArr([...arr.filter(item=>item?.maker === maker)]);
     }
   }, [history, params, products, maker]);
 
-  //   useEffect(()=>{
-  //     console.log(lightings, products?.filter(item=>item?.header === 'lighting')[0]?.data);
-
-  //   },[lightings,products])
-
-  useEffect(() => {
-    // console.log(arr);
-    // if(arr.length>0 && maker !== 'all'){
-    //     setArr([...arr.filter(item=>item?.maker===maker)]);
-    // }
-  }, [arr, maker]);
+  useEffect(() => {}, [arr, maker]);
 
   const checkpagetype = (maker) => {
     if (maker === "all") return arr;
@@ -75,40 +61,6 @@ const Products = () => {
     return arr.filter((item) => item?.maker === maker);
   };
 
-  let tmp = [
-    {
-      image: "doorlock1.webp",
-      price: 200,
-      name: "havells corna",
-      type: "doorlock",
-      brand: "havells",
-      id: "101",
-    },
-    {
-      image: "doorlock1.webp",
-      price: 300,
-      name: "havells corna 1",
-      type: "doorlock",
-      brand: "havells",
-      id: "102",
-    },
-    {
-      image: "doorlock1.webp",
-      price: 300,
-      name: "havells corna 2",
-      type: "doorlock",
-      brand: "havells",
-      id: "103",
-    },
-    {
-      image: "doorlock1.webp",
-      price: 300,
-      name: "havells corna 3",
-      type: "doorlock",
-      brand: "havells",
-      id: "104",
-    },
-  ];
   checkpagetype(maker).map((item, id) => {
     console.log(item?.image);
   });
@@ -125,11 +77,7 @@ const Products = () => {
               }
               className="prod_box"
             >
-              <img
-                alt="sananml"
-                // src="doorbell2.png"
-                src={item?.image}
-              />
+              <img alt="sananml" src={item?.image} />
               <div className="price">
                 <h3>{item?.name}</h3>
                 <h3>${item?.price}</h3>
